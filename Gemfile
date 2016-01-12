@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'yelp', require: 'yelp'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use postgresql as the database for Active Record
@@ -45,3 +45,8 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  # Good error messages in the log
+  gem 'rails_12factor'
+  gem 'figaro'
+end
