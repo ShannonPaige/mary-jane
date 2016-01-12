@@ -1,0 +1,36 @@
+
+
+body {
+  background-image: url("http://i.imgur.com/p8Dzig5.jpg");
+  height: 45rem;
+  background-size: cover;
+}
+
+.navbar {
+  min-height: 75px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 0px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 75px;
+}
+
+.jumbotron {
+background-color: #3bc3f3;
+background-size: cover;
+min-height: 300px;
+padding: 0px
+}
+
+.jumbotron h1{
+color: white;
+font-family: 'Lobster', cursive;
+}
